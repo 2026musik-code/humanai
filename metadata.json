@@ -1,0 +1,5 @@
+{
+  "name": "HUMAN AI",
+  "description": "An AI application featuring chat, image, video, and voice capabilities with user management.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
