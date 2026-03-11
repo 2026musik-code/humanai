@@ -9,6 +9,7 @@ import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';
 import AdminPanel from './components/AdminPanel';
 import Registration from './components/Registration';
+import Settings from './components/Settings';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('chat');
@@ -32,6 +33,7 @@ export default function App() {
           {currentPage === 'chat' && <Chat />}
           {currentPage === 'admin' && <AdminPanel />}
           {currentPage === 'registration' && <Registration />}
+          {currentPage === 'settings' && <Settings />}
         </main>
       </div>
     </div>
